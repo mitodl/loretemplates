@@ -237,19 +237,6 @@ a {
 	padding:0;
 }
 
-.tile-meta {
-	font-size:small;
-	color:#666;
-	font-weight:700;
-}
-
-.sub-meta {
-	display: inline-block;
-	float:right;
-	width: 55%;
-  	text-align: right;
-}
-
 .tile {
 	margin:18px 0 18px 0;
 }
@@ -325,15 +312,33 @@ a {
 
 .tile-meta {
 	font-size:13px;
+	color:#666;
+	font-weight:700;
 }
 
 .meta-item {
 	display: inline-block;
-	margin:0 14px 0 0;
+	margin:0 10px 0 0;
 }
 
 .meta-item .fa {
 	font-size:16px;
+}
+
+.sub-meta {
+	display: inline-block;
+	float:right;
+	width: 60%;
+  	text-align: right;
+}
+
+.sub-meta .meta-item {
+	width:65px;
+	text-align: left;
+}
+
+.sub-meta .meta-item.mi-col-4 {
+	width:24px;
 }
 
 /* pagination */
