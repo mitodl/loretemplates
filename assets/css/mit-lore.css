@@ -239,7 +239,8 @@ a {
 
 .tile-meta {
 	font-size:small;
-	color:#929292;
+	color:#666;
+	font-weight:700;
 }
 
 .sub-meta {
@@ -462,7 +463,15 @@ footer {
 }
 
 .drawer-tab-content {
-  padding:24px;
+  /* padding:24px; */
+}
+
+.cd-panel-content .panel-heading {
+	padding:10px 0;
+}
+
+ul.with-utility-features {
+	margin-left:35px;
 }
 
 .form-control.textarea-xml {
